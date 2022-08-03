@@ -1,4 +1,4 @@
-.text {
+.text-part1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -7,17 +7,35 @@
   background-color: black;
   color: blanchedalmond;
 }
+.text-part2 {
+  color: blanchedalmond;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 60px;
+  transform: translate(-50%, -50%);
+}
+
 .text2 {
   color: white;
   font-size: large;
 }
-.centered {
+.centered-part1 {
   position: absolute;
   top: 50%;
   left: 50%;
   padding: 40px;
   transform: translate(-50%, -50%);
 }
+.centered-part2 {
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  padding: 60px;
+  transform: translate(-50%, -50%);
+}
 .container {
   position: relative;
+  text-align: center;
 }
